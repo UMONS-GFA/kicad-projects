@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/su530201/KiCad_Projects/Ardas/ardas_shield.sch</source>
+    <date>mar 05 jan 2016 16:19:34 CET</date>
+    <tool>Eeschema 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Ardas shield - shift registers counters and rtc</title>
+        <company>UMONS-GFA</company>
+        <rev>0.1</rev>
+        <date>14 sep 2015</date>
+        <source>ardas_shield.sch</source>
+        <comment number="1" value="O. KAUFMANN"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>DS1307</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="ardas_shield-cache" part="DS1307"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55783053</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>CRYSTAL</value>
+      <footprint>MyFootprints:XTAL_ABRACON_ABS07</footprint>
+      <libsource lib="ardas_shield-cache" part="CRYSTAL-RESCUE-ardas_shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557830A6</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LV8154</value>
+      <footprint>Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <libsource lib="ardas_shield-cache" part="SN74LV8154"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557834F5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC165</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <libsource lib="ardas_shield-cache" part="74HC165"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55783B33</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LV8154</value>
+      <footprint>Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <libsource lib="ardas_shield-cache" part="SN74LV8154"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5578652A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74HC165</value>
+      <footprint>SMD_Packages:SO-16-N</footprint>
+      <libsource lib="ardas_shield-cache" part="74HC165"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55786533</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x10</footprint>
+      <libsource lib="ardas_shield-cache" part="CONN_10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F6E9CC</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_8</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="ardas_shield-cache" part="CONN_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F6E9DB</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_6</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="ardas_shield-cache" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F6EA0D</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_8</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="ardas_shield-cache" part="CONN_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F6E9EA</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565449B8</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56544D61</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56544EA4</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56544F03</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>TTL_COMM</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5654D8C4</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74LVC1G125</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <libsource lib="ardas_shield-cache" part="74LVC1G125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56550034</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74LVC1G125</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <libsource lib="ardas_shield-cache" part="74LVC1G125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56550392</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74LVC1G125</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-5</footprint>
+      <libsource lib="ardas_shield-cache" part="74LVC1G125"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5655048F</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LD1117S33TR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223</footprint>
+      <libsource lib="regul" part="LD1117S33TR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565533AB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565535F2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565536BD</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_ICSP</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x03</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5655BFA8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5656856D</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>R_4x4.7k</value>
+      <footprint>Resistors_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56570400</tstamp>
+    </comp>
+    <comp ref="RP4">
+      <value>R_4x10k</value>
+      <footprint>Resistors_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5657A04D</tstamp>
+    </comp>
+    <comp ref="RP3">
+      <value>R_4x10k</value>
+      <footprint>Resistors_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5657EE36</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>MyFootprints:BATTERY_KEYSTONE_12mm</footprint>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56585D30</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm</footprint>
+      <libsource lib="74xx" part="74HC595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565867EA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_RABG</value>
+      <footprint>MyFootprints:led-P-LCC-4-3</footprint>
+      <libsource lib="device" part="LED_RABG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565885AB</tstamp>
+    </comp>
+    <comp ref="RP2">
+      <value>R_4x10k</value>
+      <footprint>Resistors_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56588FDB</tstamp>
+    </comp>
+    <comp ref="RP5">
+      <value>R_4x10k</value>
+      <footprint>Resistors_SMD:R_Array_Convex_4x1206</footprint>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5658A21E</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>SD_Card</value>
+      <footprint>10067847-001</footprint>
+      <libsource lib="ardas_shield-rescue" part="SD_Card-RESCUE-ardas_shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5655FE06</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>150</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568BE18A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568BE39C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>568BE4E9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ardas_shield-cache" part="74HC165">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC165</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PL" type="input"/>
+        <pin num="2" name="CP" type="input"/>
+        <pin num="3" name="D4" type="input"/>
+        <pin num="4" name="D5" type="input"/>
+        <pin num="5" name="D6" type="input"/>
+        <pin num="6" name="D7" type="input"/>
+        <pin num="7" name="Q7'" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q7" type="output"/>
+        <pin num="10" name="DS" type="input"/>
+        <pin num="11" name="D0" type="input"/>
+        <pin num="12" name="D1" type="input"/>
+        <pin num="13" name="D2" type="input"/>
+        <pin num="14" name="D3" type="input"/>
+        <pin num="15" name="CE" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HC595">
+      <aliases>
+        <alias>74LS596</alias>
+        <alias>74LS595</alias>
+      </aliases>
+      <description>8 bits serial in // out Shift Register 3 State Out</description>
+      <docs>74xx/74HC595.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~QH" type="output"/>
+        <pin num="10" name="SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="G" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-cache" part="74LVC1G125">
+      <aliases>
+        <alias>74AHC1G125</alias>
+        <alias>74AHCT1G125</alias>
+        <alias>74AUC1G125</alias>
+        <alias>74AUP1G125</alias>
+      </aliases>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="3state"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-cache" part="CONN_10">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-cache" part="CONN_6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-cache" part="CONN_8">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-cache" part="CRYSTAL-RESCUE-ardas_shield">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL-RESCUE-ardas_shield</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-cache" part="DS1307">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">DS1307</field>
+        <field name="Footprint">ds1307_pcf8583-DIL08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="output"/>
+        <pin num="3" name="VBAT" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="SQW" type="openCol"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LD1117S33TR">
+      <aliases>
+        <alias>LD1117S33CTR</alias>
+        <alias>LD1117S12TR</alias>
+        <alias>LD1117S12CTR</alias>
+        <alias>LD1117S18TR</alias>
+        <alias>LD1117S18CTR</alias>
+        <alias>LD1117S25TR</alias>
+        <alias>LD1117S25CTR</alias>
+        <alias>LD1117S50TR</alias>
+        <alias>LD1117S50CTR</alias>
+      </aliases>
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR</field>
+        <field name="Footprint">SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED_RABG">
+      <description>Common Anode RGB LED</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RABG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RED_CATHODE" type="passive"/>
+        <pin num="2" name="COMMON_ANODE" type="passive"/>
+        <pin num="3" name="BLUE_CATHODE" type="passive"/>
+        <pin num="4" name="GREEN_CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_PACK4">
+      <description>4 resistors Pack</description>
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">R_PACK4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R3" type="passive"/>
+        <pin num="7" name="R2" type="passive"/>
+        <pin num="8" name="R1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-rescue" part="SD_Card-RESCUE-ardas_shield">
+      <footprints>
+        <fp>SD_Card_Receptacle</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">SD_Card-RESCUE-ardas_shield</field>
+        <field name="Footprint">10067847-001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CD/DAT3" type="input"/>
+        <pin num="2" name="CMD" type="input"/>
+        <pin num="3" name="VSS" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="input"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="CD1" name="~" type="input"/>
+        <pin num="CD2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ardas_shield-cache" part="SN74LV8154">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LV8154</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKA" type="output"/>
+        <pin num="2" name="CLKB" type="output"/>
+        <pin num="3" name="GAL" type="input"/>
+        <pin num="4" name="GAU" type="input"/>
+        <pin num="5" name="GBL" type="input"/>
+        <pin num="6" name="GBU" type="input"/>
+        <pin num="7" name="RCLK" type="input"/>
+        <pin num="8" name="RCOA" type="output"/>
+        <pin num="9" name="CLKBEN" type="output"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="CCLR" type="output"/>
+        <pin num="12" name="Y7" type="output"/>
+        <pin num="13" name="Y6" type="output"/>
+        <pin num="14" name="Y5" type="output"/>
+        <pin num="15" name="Y4" type="output"/>
+        <pin num="16" name="Y3" type="output"/>
+        <pin num="17" name="Y2" type="output"/>
+        <pin num="18" name="Y1" type="output"/>
+        <pin num="19" name="Y0" type="output"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ardas_shield-rescue">
+      <uri>/home/su530201/KiCad_Projects/Ardas/ardas_shield-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="ardas_shield-cache">
+      <uri>/home/su530201/KiCad_Projects/Ardas/ardas_shield-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IC1-Pad2)">
+      <node ref="X1" pin="2"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="5" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="6" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad5)">
+      <node ref="U3" pin="13"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad4)">
+      <node ref="U3" pin="14"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad3)">
+      <node ref="U3" pin="15"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(BT1-Pad1)">
+      <node ref="IC1" pin="3"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad11)">
+      <node ref="U3" pin="19"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="14" name="Net-(CON1-PadCD2)">
+      <node ref="CON1" pin="CD2"/>
+    </net>
+    <net code="15" name="Net-(RP5-Pad5)">
+      <node ref="U1" pin="4"/>
+      <node ref="U6" pin="6"/>
+      <node ref="RP5" pin="5"/>
+    </net>
+    <net code="16" name="Net-(RP5-Pad6)">
+      <node ref="U1" pin="5"/>
+      <node ref="U6" pin="5"/>
+      <node ref="RP5" pin="6"/>
+    </net>
+    <net code="17" name="Net-(RP5-Pad7)">
+      <node ref="U1" pin="6"/>
+      <node ref="RP5" pin="7"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="18" name="Net-(RP5-Pad8)">
+      <node ref="RP5" pin="8"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="21" name="Net-(CON1-PadCD1)">
+      <node ref="CON1" pin="CD1"/>
+    </net>
+    <net code="23" name="/SEN3">
+      <node ref="CON1" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="24" name="/MOSI3">
+      <node ref="CON1" pin="2"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="25" name="/+3.3V">
+      <node ref="C2" pin="1"/>
+      <node ref="CON1" pin="4"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="26" name="/SCK3">
+      <node ref="U8" pin="4"/>
+      <node ref="CON1" pin="5"/>
+    </net>
+    <net code="27" name="MISO">
+      <node ref="CON1" pin="7"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="28" name="Net-(CON1-Pad8)">
+      <node ref="CON1" pin="8"/>
+    </net>
+    <net code="29" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="30" name="+5V">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="P7" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="RP1" pin="5"/>
+      <node ref="RP1" pin="1"/>
+      <node ref="RP5" pin="3"/>
+      <node ref="RP5" pin="4"/>
+      <node ref="RP5" pin="2"/>
+      <node ref="RP1" pin="7"/>
+      <node ref="RP1" pin="6"/>
+      <node ref="RP2" pin="2"/>
+      <node ref="RP4" pin="3"/>
+      <node ref="U3" pin="20"/>
+      <node ref="P2" pin="5"/>
+      <node ref="RP4" pin="5"/>
+      <node ref="P10" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="P9" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="P8" pin="1"/>
+      <node ref="RP2" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="P4" pin="2"/>
+      <node ref="RP2" pin="4"/>
+      <node ref="U6" pin="20"/>
+      <node ref="RP5" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U2" pin="16"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="RP2" pin="3"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="33" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="34" name="Net-(RP2-Pad5)">
+      <node ref="RP2" pin="5"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="35" name="Net-(RP2-Pad6)">
+      <node ref="U3" pin="5"/>
+      <node ref="RP2" pin="6"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="36" name="Net-(RP2-Pad7)">
+      <node ref="U3" pin="4"/>
+      <node ref="RP2" pin="7"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="37" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="13"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(RP2-Pad8)">
+      <node ref="RP2" pin="8"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="39" name="Net-(RP4-Pad6)">
+      <node ref="RP4" pin="6"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="P7" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="P9" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="CON1" pin="6"/>
+      <node ref="RP4" pin="7"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U6" pin="10"/>
+      <node ref="P4" pin="6"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="U2" pin="8"/>
+      <node ref="P8" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="RP4" pin="8"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="P2" pin="7"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P2" pin="6"/>
+      <node ref="RP3" pin="5"/>
+      <node ref="RP3" pin="6"/>
+      <node ref="RP3" pin="7"/>
+      <node ref="P10" pin="2"/>
+      <node ref="RP3" pin="8"/>
+      <node ref="U9" pin="1"/>
+      <node ref="P6" pin="3"/>
+    </net>
+    <net code="41" name="D16">
+      <node ref="R3" pin="2"/>
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="42" name="Net-(RP1-Pad8)">
+      <node ref="RP1" pin="8"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="43" name="Net-(RP4-Pad4)">
+      <node ref="RP4" pin="4"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad13)">
+      <node ref="U3" pin="17"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad3)">
+      <node ref="U6" pin="15"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad4)">
+      <node ref="U6" pin="14"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="48" name="Net-(RP3-Pad3)">
+      <node ref="RP3" pin="3"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad10)">
+      <node ref="U4" pin="9"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="50" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="51" name="D09">
+      <node ref="RP4" pin="1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="RP4" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="52" name="Net-(RP3-Pad4)">
+      <node ref="RP3" pin="4"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="53" name="Net-(RP3-Pad2)">
+      <node ref="RP3" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="54" name="Net-(RP3-Pad1)">
+      <node ref="U3" pin="8"/>
+      <node ref="RP3" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U4-Pad6)">
+      <node ref="U6" pin="12"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="56" name="D05">
+      <node ref="P3" pin="6"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="57" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="58" name="D07">
+      <node ref="P3" pin="8"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="59" name="D17">
+      <node ref="P5" pin="4"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="60" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="61" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="62" name="Net-(P2-Pad4)">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="63" name="Net-(P2-Pad8)">
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="64" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="65" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="66" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="67" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="68" name="A04">
+      <node ref="P5" pin="5"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="P1" pin="9"/>
+      <node ref="RP1" pin="4"/>
+    </net>
+    <net code="69" name="A05">
+      <node ref="P5" pin="6"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="P1" pin="10"/>
+      <node ref="RP1" pin="3"/>
+    </net>
+    <net code="70" name="D00">
+      <node ref="P6" pin="2"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="71" name="D02">
+      <node ref="RP1" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="72" name="D04">
+      <node ref="U9" pin="2"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="73" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="74" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="76" name="CH3">
+      <node ref="P8" pin="3"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="77" name="D08">
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="78" name="CH1">
+      <node ref="U3" pin="1"/>
+      <node ref="P10" pin="3"/>
+    </net>
+    <net code="79" name="CH2">
+      <node ref="U3" pin="2"/>
+      <node ref="P9" pin="3"/>
+    </net>
+    <net code="80" name="D14">
+      <node ref="U3" pin="7"/>
+      <node ref="U6" pin="7"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="81" name="D15">
+      <node ref="U2" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="82" name="CH4">
+      <node ref="P7" pin="3"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="83" name="SCK">
+      <node ref="U8" pin="2"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="84" name="MOSI">
+      <node ref="U7" pin="2"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="85" name="Net-(P4-Pad5)">
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="86" name="D03">
+      <node ref="U1" pin="11"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="87" name="D06">
+      <node ref="U1" pin="12"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="88" name="D01">
+      <node ref="P3" pin="2"/>
+      <node ref="P6" pin="1"/>
+    </net>
+  </nets>
+</export>

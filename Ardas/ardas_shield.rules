@@ -1,0 +1,152 @@
+
+(rules PCB ardas_shield
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 145)
+    (layer_rule Front
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule Back
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 203.4)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 50.8 (type smd_smd))
+  )
+  (padstack "Via[0-1]_1000:635_um"
+    (shape
+      (circle Front 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle Back 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1000:635_um" "Via[0-1]_1000:635_um" default
+  )
+  (via 
+    "Via[0-1]_1000:635_um-kicad_default" "Via[0-1]_1000:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1000:635_um-16mil" "Via[0-1]_1000:635_um" 16mil
+  )
+  (via 
+    "Via[0-1]_1000:635_um-20mil" "Via[0-1]_1000:635_um" 20mil
+  )
+  (via 
+    "Via[0-1]_1000:635_um-2mil" "Via[0-1]_1000:635_um" 2mil
+  )
+  (via 
+    "Via[0-1]_1000:635_um-8mil" "Via[0-1]_1000:635_um" 8mil
+  )
+  (via_rule
+    default "Via[0-1]_1000:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1000:635_um-kicad_default"
+  )
+  (via_rule
+    16mil "Via[0-1]_1000:635_um-16mil"
+  )
+  (via_rule
+    20mil "Via[0-1]_1000:635_um-20mil"
+  )
+  (via_rule
+    2mil "Via[0-1]_1000:635_um-2mil"
+  )
+  (via_rule
+    8mil "Via[0-1]_1000:635_um-8mil"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D1-Pad1)" "Net-(D1-Pad3)" "Net-(D1-Pad4)" D18 D19
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class 16mil
+    GND +5V
+    (clearance_class 16mil)
+    (via_rule 16mil)
+    (rule
+      (width 406.4)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class 20mil
+    (clearance_class 20mil)
+    (via_rule 20mil)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class 2mil
+    (clearance_class 2mil)
+    (via_rule 2mil)
+    (rule
+      (width 50.8)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class 8mil
+    "Net-(BT1-Pad1)" /+3.3V /SEN3 /MOSI3 /SCK3 MISO "Net-(CON1-Pad8)" D17
+    D03 D02 A05 A04 "Net-(IC1-Pad2)" "Net-(IC1-Pad1)" D08 D09
+    "Net-(P1-Pad3)" "Net-(P1-Pad4)" "Net-(P1-Pad5)" "Net-(P1-Pad6)" "Net-(P1-Pad8)" "Net-(P2-Pad1)" "Net-(P2-Pad2)" "Net-(P2-Pad3)"
+    "Net-(P2-Pad4)" "Net-(P2-Pad8)" D00 D01 D04 D05 SCK MOSI
+    "Net-(P4-Pad5)" D14 D15 D16 CH4 CH3 CH2 CH1
+    "Net-(R1-Pad2)" "Net-(RP2-Pad7)" "Net-(RP2-Pad8)" "Net-(RP2-Pad5)" "Net-(RP2-Pad6)" "Net-(RP3-Pad1)" "Net-(RP3-Pad4)" "Net-(RP3-Pad2)"
+    "Net-(RP3-Pad3)" "Net-(RP5-Pad7)" "Net-(RP5-Pad8)" "Net-(RP5-Pad5)" "Net-(RP5-Pad6)" "Net-(U1-Pad9)" D06 "Net-(U2-Pad3)"
+    "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U2-Pad7)" D07 "Net-(U2-Pad10)" "Net-(U2-Pad11)" "Net-(U2-Pad12)"
+    "Net-(U2-Pad13)" "Net-(U2-Pad14)" "Net-(U4-Pad14)" "Net-(U4-Pad13)" "Net-(U4-Pad12)" "Net-(U4-Pad11)" "Net-(U4-Pad10)" "Net-(U4-Pad7)"
+    "Net-(U4-Pad6)" "Net-(U4-Pad5)" "Net-(U4-Pad4)" "Net-(U4-Pad3)" "Net-(CON1-PadCD2)" "Net-(CON1-PadCD1)" "Net-(RP1-Pad8)" "Net-(RP4-Pad4)"
+    "Net-(RP4-Pad6)"
+    (clearance_class 8mil)
+    (via_rule 8mil)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+)
