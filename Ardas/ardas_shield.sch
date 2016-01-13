@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:RTC_Ardas_test-cache
-LIBS:ardas_shield-rescue
+LIBS:Ardas
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ardas_shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -68,7 +66,7 @@ F 3 "" H 1800 3100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CRYSTAL-RESCUE-ardas_shield X1
+L CRYSTAL X1
 U 1 1 557830A6
 P 1800 4250
 F 0 "X1" H 1800 4400 60  0000 C CNN
@@ -123,47 +121,47 @@ F 3 "~" H 8300 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_10 P1
+L CONN_01X10 P1
 U 1 1 55F6E9CC
-P 10750 3650
-F 0 "P1" V 10700 3650 60  0000 C CNN
-F 1 "CONN_10" V 10800 3650 60  0000 C CNN
-F 2 "Ardas_shield:Pin_Header_Straight_1x10" H 10750 3650 60  0001 C CNN
-F 3 "" H 10750 3650 60  0000 C CNN
-	1    10750 3650
+P 10750 3500
+F 0 "P1" V 10700 3500 60  0000 C CNN
+F 1 "CONN_10" V 10800 3500 60  0000 C CNN
+F 2 "Ardas_shield:Pin_Header_Straight_1x10" H 10750 3500 60  0001 C CNN
+F 3 "" H 10750 3500 60  0000 C CNN
+	1    10750 3500
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_8 P3
+L CONN_01X08 P3
 U 1 1 55F6E9DB
-P 11700 3650
-F 0 "P3" V 11650 3650 60  0000 C CNN
-F 1 "CONN_8" V 11750 3650 60  0000 C CNN
-F 2 "Ardas_shield:Pin_Header_Straight_1x08" H 11700 3650 60  0001 C CNN
-F 3 "" H 11700 3650 60  0000 C CNN
-	1    11700 3650
+P 11700 3500
+F 0 "P3" V 11650 3500 60  0000 C CNN
+F 1 "CONN_8" V 11750 3500 60  0000 C CNN
+F 2 "Ardas_shield:Pin_Header_Straight_1x08" H 11700 3500 60  0001 C CNN
+F 3 "" H 11700 3500 60  0000 C CNN
+	1    11700 3500
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_6 P5
+L CONN_01X06 P5
 U 1 1 55F6EA0D
-P 11800 4450
-F 0 "P5" V 11750 4450 60  0000 C CNN
-F 1 "CONN_6" V 11850 4450 60  0000 C CNN
-F 2 "Ardas_shield:Pin_Header_Straight_1x06" H 11800 4450 60  0001 C CNN
-F 3 "" H 11800 4450 60  0000 C CNN
-	1    11800 4450
+P 11800 4600
+F 0 "P5" V 11750 4600 60  0000 C CNN
+F 1 "CONN_6" V 11850 4600 60  0000 C CNN
+F 2 "Ardas_shield:Pin_Header_Straight_1x06" H 11800 4600 60  0001 C CNN
+F 3 "" H 11800 4600 60  0000 C CNN
+	1    11800 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_8 P2
+L CONN_01X08 P2
 U 1 1 55F6E9EA
-P 11050 4450
-F 0 "P2" V 11000 4450 60  0000 C CNN
-F 1 "CONN_8" V 11100 4450 60  0000 C CNN
-F 2 "Ardas_shield:Pin_Header_Straight_1x08" H 11050 4450 60  0001 C CNN
-F 3 "" H 11050 4450 60  0000 C CNN
-	1    11050 4450
+P 11050 4600
+F 0 "P2" V 11000 4600 60  0000 C CNN
+F 1 "CONN_8" V 11100 4600 60  0000 C CNN
+F 2 "Ardas_shield:Pin_Header_Straight_1x08" H 11050 4600 60  0001 C CNN
+F 3 "" H 11050 4600 60  0000 C CNN
+	1    11050 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -303,10 +301,6 @@ Text GLabel 1900 1750 1    39   Input ~ 0
 A04
 Text GLabel 2100 1750 1    39   Input ~ 0
 A05
-Text GLabel 12050 4800 3    39   Input ~ 0
-D19
-Text GLabel 11950 4800 3    39   Input ~ 0
-D18
 Text GLabel 11750 3300 1    39   Input ~ 0
 D03
 Text GLabel 11650 3300 1    39   Input ~ 0
@@ -559,7 +553,7 @@ F 3 "" H 6750 3950 60  0000 C CNN
 $EndComp
 NoConn ~ 11550 4150
 $Comp
-L GND-RESCUE-ardas_shield #PWR04
+L GND #PWR04
 U 1 1 56583A97
 P 1000 1200
 F 0 "#PWR04" H 1000 1200 30  0001 C CNN
@@ -641,7 +635,7 @@ NoConn ~ 11900 1950
 NoConn ~ 11900 2050
 NoConn ~ 13200 1000
 $Comp
-L SD_Card-RESCUE-ardas_shield CON1
+L SD_Card CON1
 U 1 1 5655FE06
 P 11000 2150
 F 0 "CON1" H 10350 2700 50  0000 C CNN
@@ -1186,4 +1180,6 @@ F 3 "" H 1500 2500 50  0000 C CNN
 $EndComp
 Text GLabel 1500 2400 1    39   Input ~ 0
 GND
+NoConn ~ 11950 4800
+NoConn ~ 12050 4800
 $EndSCHEMATC
