@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 145)
+    (start_pass_no 121)
     (layer_rule Front
       (active on)
       (preferred_direction horizontal)
@@ -138,8 +138,7 @@
     "Net-(RP3-Pad3)" "Net-(RP5-Pad7)" "Net-(RP5-Pad8)" "Net-(RP5-Pad5)" "Net-(RP5-Pad6)" "Net-(U1-Pad9)" D06 "Net-(U2-Pad3)"
     "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U2-Pad7)" D07 "Net-(U2-Pad10)" "Net-(U2-Pad11)" "Net-(U2-Pad12)"
     "Net-(U2-Pad13)" "Net-(U2-Pad14)" "Net-(U4-Pad14)" "Net-(U4-Pad13)" "Net-(U4-Pad12)" "Net-(U4-Pad11)" "Net-(U4-Pad10)" "Net-(U4-Pad7)"
-    "Net-(U4-Pad6)" "Net-(U4-Pad5)" "Net-(U4-Pad4)" "Net-(U4-Pad3)" "Net-(CON1-PadCD2)" "Net-(CON1-PadCD1)" "Net-(RP1-Pad8)" "Net-(RP4-Pad4)"
-    "Net-(RP4-Pad6)"
+    "Net-(U4-Pad6)" "Net-(U4-Pad5)" "Net-(U4-Pad4)" "Net-(U4-Pad3)" "Net-(RP1-Pad8)" "Net-(RP4-Pad4)" "Net-(RP4-Pad6)"
     (clearance_class 8mil)
     (via_rule 8mil)
     (rule

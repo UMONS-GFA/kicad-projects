@@ -1,4 +1,2 @@
 (fp_lib_table
-  (lib (name RTC_Ardas_test)(type KiCad)(uri /home/su530201/KiCad_Projects/RTC_Ardas_test/RTC_Ardas_test.pretty)(options "")(descr ""))
-  (lib (name Ardas_shield)(type KiCad)(uri "$(KIPRJMOD)/Ardas_shield.pretty")(options "")(descr ""))
 )
