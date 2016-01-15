@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "Ardas shield - shift registers counters and rtc"
 Date "2016-01-05"
-Rev "0.4"
+Rev "0.49"
 Comp "UMONS-GFA"
 Comment1 "O. KAUFMANN"
 Comment2 ""
@@ -62,7 +62,7 @@ P 1800 3100
 F 0 "IC1" H 1500 3550 50  0000 L BNN
 F 1 "DS1307" H 1500 2600 50  0000 L BNN
 F 2 "Ardas_shield:SOIC-8-N" H 1800 3250 50  0001 C CNN
-F 3 "" H 1800 3100 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/46359.pdf" H 1800 3100 60  0001 C CNN
 	1    1800 3100
 	0    1    -1   0   
 $EndComp
@@ -84,7 +84,7 @@ P 5200 4150
 F 0 "U3" H 5650 3350 60  0000 C CNN
 F 1 "SN74LV8154" H 5400 4450 60  0000 C CNN
 F 2 "Ardas_shield:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 5200 4150 60  0001 C CNN
-F 3 "" H 5200 4150 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1996491.pdf" H 5200 4150 60  0001 C CNN
 	1    5200 4150
 	0    1    1    0   
 $EndComp
@@ -534,7 +534,7 @@ P 6750 5450
 F 0 "RP4" H 6750 5900 50  0000 C CNN
 F 1 "R_4x10k" H 6750 5400 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 5450 60  0001 C CNN
-F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 5450 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 5450 60  0001 C CNN
 	1    6750 5450
 	1    0    0    1   
 $EndComp
@@ -548,7 +548,7 @@ P 6750 3950
 F 0 "RP3" H 6750 4400 50  0000 C CNN
 F 1 "R_4x10k" H 6750 3900 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 3950 60  0001 C CNN
-F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 3950 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 3950 60  0001 C CNN
 	1    6750 3950
 	1    0    0    1   
 $EndComp
@@ -588,7 +588,7 @@ P 3900 1650
 F 0 "U1" H 4050 2250 70  0000 C CNN
 F 1 "74HC595" H 3900 1050 70  0000 C CNN
 F 2 "Ardas_shield:SOIC-16_7.5x10.3mm_Pitch1.27mm" H 3900 1650 60  0001 C CNN
-F 3 "" H 3900 1650 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1970412.pdf" H 3900 1650 60  0001 C CNN
 	1    3900 1650
 	1    0    0    -1  
 $EndComp
@@ -626,7 +626,7 @@ P 7450 3100
 F 0 "RP5" H 7450 3550 50  0000 C CNN
 F 1 "R_4x10k" H 7450 3050 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 7450 3100 60  0001 C CNN
-F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 7450 3100 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 7450 3100 60  0001 C CNN
 	1    7450 3100
 	1    0    0    -1  
 $EndComp
