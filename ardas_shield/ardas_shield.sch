@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ardas_shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -36,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "Ardas shield - shift registers counters and rtc"
 Date "2016-01-05"
-Rev "0.4"
+Rev "0.49"
 Comp "UMONS-GFA"
 Comment1 "O. KAUFMANN"
 Comment2 ""
@@ -533,7 +534,7 @@ P 6750 5450
 F 0 "RP4" H 6750 5900 50  0000 C CNN
 F 1 "R_4x10k" H 6750 5400 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 5450 60  0001 C CNN
-F 3 "" H 6750 5450 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 5450 60  0000 C CNN
 	1    6750 5450
 	1    0    0    1   
 $EndComp
@@ -547,7 +548,7 @@ P 6750 3950
 F 0 "RP3" H 6750 4400 50  0000 C CNN
 F 1 "R_4x10k" H 6750 3900 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 3950 60  0001 C CNN
-F 3 "" H 6750 3950 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 3950 60  0000 C CNN
 	1    6750 3950
 	1    0    0    1   
 $EndComp
@@ -625,7 +626,7 @@ P 7450 3100
 F 0 "RP5" H 7450 3550 50  0000 C CNN
 F 1 "R_4x10k" H 7450 3050 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 7450 3100 60  0001 C CNN
-F 3 "" H 7450 3100 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 7450 3100 60  0000 C CNN
 	1    7450 3100
 	1    0    0    -1  
 $EndComp

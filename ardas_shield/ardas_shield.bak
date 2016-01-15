@@ -302,10 +302,6 @@ Text GLabel 1900 1750 1    39   Input ~ 0
 A04
 Text GLabel 2100 1750 1    39   Input ~ 0
 A05
-Text GLabel 12050 4800 3    39   Input ~ 0
-D19
-Text GLabel 11950 4800 3    39   Input ~ 0
-D18
 Text GLabel 11750 3300 1    39   Input ~ 0
 D03
 Text GLabel 11650 3300 1    39   Input ~ 0
@@ -538,7 +534,7 @@ P 6750 5450
 F 0 "RP4" H 6750 5900 50  0000 C CNN
 F 1 "R_4x10k" H 6750 5400 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 5450 60  0001 C CNN
-F 3 "" H 6750 5450 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 5450 60  0000 C CNN
 	1    6750 5450
 	1    0    0    1   
 $EndComp
@@ -552,7 +548,7 @@ P 6750 3950
 F 0 "RP3" H 6750 4400 50  0000 C CNN
 F 1 "R_4x10k" H 6750 3900 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 3950 60  0001 C CNN
-F 3 "" H 6750 3950 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 3950 60  0000 C CNN
 	1    6750 3950
 	1    0    0    1   
 $EndComp
@@ -630,7 +626,7 @@ P 7450 3100
 F 0 "RP5" H 7450 3550 50  0000 C CNN
 F 1 "R_4x10k" H 7450 3050 50  0000 C CNN
 F 2 "Ardas_shield:R_Array_Convex_4x1206" H 7450 3100 60  0001 C CNN
-F 3 "" H 7450 3100 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 7450 3100 60  0000 C CNN
 	1    7450 3100
 	1    0    0    -1  
 $EndComp
@@ -1185,4 +1181,6 @@ F 3 "" H 1500 2500 50  0000 C CNN
 $EndComp
 Text GLabel 1500 2400 1    39   Input ~ 0
 GND
+NoConn ~ 11950 4800
+NoConn ~ 12050 4800
 $EndSCHEMATC
