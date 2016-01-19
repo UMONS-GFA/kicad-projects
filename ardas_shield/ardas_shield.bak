@@ -95,7 +95,7 @@ P 4900 6350
 F 0 "U2" H 4900 5850 60  0000 C CNN
 F 1 "74HC165" H 4900 6850 60  0000 C CNN
 F 2 "Ardas_shield:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 4900 6350 60  0001 C CNN
-F 3 "~" H 4900 6350 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1831348.pdf" H 4900 6350 60  0001 C CNN
 	1    4900 6350
 	1    0    0    -1  
 $EndComp
@@ -106,7 +106,7 @@ P 8600 4150
 F 0 "U6" H 9050 3350 60  0000 C CNN
 F 1 "SN74LV8154" H 8800 4450 60  0000 C CNN
 F 2 "Ardas_shield:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 8600 4150 60  0001 C CNN
-F 3 "" H 8600 4150 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1996491.pdf" H 8600 4150 60  0001 C CNN
 	1    8600 4150
 	0    1    1    0   
 $EndComp
@@ -117,7 +117,7 @@ P 8300 6350
 F 0 "U4" H 8300 5850 60  0000 C CNN
 F 1 "74HC165" H 8300 6850 60  0000 C CNN
 F 2 "Ardas_shield:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 8300 6350 60  0001 C CNN
-F 3 "~" H 8300 6350 60  0000 C CNN
+F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1831348.pdf" H 8300 6350 60  0001 C CNN
 	1    8300 6350
 	1    0    0    -1  
 $EndComp

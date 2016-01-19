@@ -45,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PWR_FLAG #FLG01
+L PWR_FLAG #FLG2
 U 1 1 55782956
 P 800 1100
-F 0 "#FLG01" H 800 1195 30  0001 C CNN
+F 0 "#FLG2" H 800 1195 30  0001 C CNN
 F 1 "PWR_FLAG" H 800 1280 30  0000 C CNN
 F 2 "" H 800 1100 60  0000 C CNN
 F 3 "" H 800 1100 60  0000 C CNN
@@ -239,10 +239,10 @@ NoConn ~ 8900 6600
 NoConn ~ 7700 6600
 NoConn ~ 4300 6600
 $Comp
-L +5V #PWR02
+L +5V #PWR1
 U 1 1 56548203
 P 1000 700
-F 0 "#PWR02" H 1000 790 20  0001 C CNN
+F 0 "#PWR1" H 1000 790 20  0001 C CNN
 F 1 "+5V" H 1000 790 30  0000 C CNN
 F 2 "" H 1000 700 60  0000 C CNN
 F 3 "" H 1000 700 60  0000 C CNN
@@ -355,10 +355,10 @@ CH3
 Text GLabel 8200 3750 1    39   Input ~ 0
 D14
 $Comp
-L PWR_FLAG #FLG03
+L PWR_FLAG #FLG1
 U 1 1 55782922
 P 800 700
-F 0 "#FLG03" H 800 795 30  0001 C CNN
+F 0 "#FLG1" H 800 795 30  0001 C CNN
 F 1 "PWR_FLAG" H 800 880 30  0000 C CNN
 F 2 "" H 800 700 60  0000 C CNN
 F 3 "" H 800 700 60  0000 C CNN
@@ -455,21 +455,21 @@ Text GLabel 9600 1250 0    39   Input ~ 0
 MOSI
 Text GLabel 10600 1250 0    39   Input ~ 0
 SCK
-Text GLabel 10100 2350 0    39   Input ~ 0
+Text GLabel 9700 2350 0    39   Input ~ 0
 GND
-Text GLabel 10100 2450 0    39   Input ~ 0
+Text GLabel 9700 2450 0    39   Input ~ 0
 MISO
-Text GLabel 10100 2050 0    39   Input ~ 0
+Text GLabel 9700 2050 0    39   Input ~ 0
 GND
-Text Label 9850 2250 0    39   ~ 0
+Text Label 9450 2250 0    39   ~ 0
 SCK3
-Text Label 9850 2150 0    39   ~ 0
+Text Label 9450 2150 0    39   ~ 0
 +3.3V
 Text GLabel 8600 1250 3    39   Input ~ 0
 GND
-Text Label 9850 1950 0    39   ~ 0
+Text Label 9450 1950 0    39   ~ 0
 MOSI3
-Text Label 9850 1850 0    39   ~ 0
+Text Label 9450 1850 0    39   ~ 0
 SEN3
 $Comp
 L CONN_02X03 P4
@@ -492,7 +492,7 @@ Text GLabel 12050 4050 2    39   Input ~ 0
 MOSI
 Text GLabel 12050 4150 2    39   Input ~ 0
 GND
-NoConn ~ 10100 2550
+NoConn ~ 9700 2550
 Text Notes 12850 3050 0    39   ~ 0
 Rx
 Text Notes 12850 2950 0    39   ~ 0
@@ -520,7 +520,7 @@ U 1 1 56570400
 P 2450 2400
 F 0 "RP1" H 2450 2850 50  0000 C CNN
 F 1 "R_4x4.7k" H 2450 2350 50  0000 C CNN
-F 2 "Ardas_shield:R_Array_Convex_4x1206" H 2450 2400 60  0001 C CNN
+F 2 "kicad-gfa local:R_Array_Convex_4x0603" H 2450 2400 60  0001 C CNN
 F 3 "" H 2450 2400 60  0000 C CNN
 	1    2450 2400
 	1    0    0    -1  
@@ -533,7 +533,7 @@ U 1 1 5657A04D
 P 6750 5450
 F 0 "RP4" H 6750 5900 50  0000 C CNN
 F 1 "R_4x10k" H 6750 5400 50  0000 C CNN
-F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 5450 60  0001 C CNN
+F 2 "kicad-gfa local:R_Array_Convex_4x0603" H 6750 5450 60  0001 C CNN
 F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 5450 60  0001 C CNN
 	1    6750 5450
 	1    0    0    1   
@@ -547,17 +547,17 @@ U 1 1 5657EE36
 P 6750 3950
 F 0 "RP3" H 6750 4400 50  0000 C CNN
 F 1 "R_4x10k" H 6750 3900 50  0000 C CNN
-F 2 "Ardas_shield:R_Array_Convex_4x1206" H 6750 3950 60  0001 C CNN
+F 2 "kicad-gfa local:R_Array_Convex_4x0603" H 6750 3950 60  0001 C CNN
 F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 6750 3950 60  0001 C CNN
 	1    6750 3950
 	1    0    0    1   
 $EndComp
 NoConn ~ 11550 4150
 $Comp
-L GND #PWR04
+L GND #PWR2
 U 1 1 56583A97
 P 1000 1200
-F 0 "#PWR04" H 1000 1200 30  0001 C CNN
+F 0 "#PWR2" H 1000 1200 30  0001 C CNN
 F 1 "GND" H 1000 1130 30  0001 C CNN
 F 2 "" H 1000 1200 60  0000 C CNN
 F 3 "" H 1000 1200 60  0000 C CNN
@@ -614,7 +614,7 @@ U 1 1 56588FDB
 P 4450 3100
 F 0 "RP2" H 4450 3550 50  0000 C CNN
 F 1 "R_4x10k" H 4450 3050 50  0000 C CNN
-F 2 "Ardas_shield:R_Array_Convex_4x1206" H 4450 3100 60  0001 C CNN
+F 2 "kicad-gfa local:R_Array_Convex_4x0603" H 4450 3100 60  0001 C CNN
 F 3 "" H 4450 3100 60  0000 C CNN
 	1    4450 3100
 	1    0    0    -1  
@@ -625,25 +625,24 @@ U 1 1 5658A21E
 P 7450 3100
 F 0 "RP5" H 7450 3550 50  0000 C CNN
 F 1 "R_4x10k" H 7450 3050 50  0000 C CNN
-F 2 "Ardas_shield:R_Array_Convex_4x1206" H 7450 3100 60  0001 C CNN
+F 2 "kicad-gfa local:R_Array_Convex_4x0603" H 7450 3100 60  0001 C CNN
 F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf" H 7450 3100 60  0001 C CNN
 	1    7450 3100
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4600 2100
 NoConn ~ 2000 4200
-NoConn ~ 11900 1950
-NoConn ~ 11900 2050
+NoConn ~ 11500 2050
 NoConn ~ 13200 1000
 $Comp
 L SD_Card CON1
 U 1 1 5655FE06
-P 11000 2150
-F 0 "CON1" H 10350 2700 50  0000 C CNN
-F 1 "SD_Card" H 11600 1600 50  0000 C CNN
-F 2 "Ardas_shield:microsd_socket" H 11200 2500 50  0000 C CNN
-F 3 "" H 11000 2150 60  0000 C CNN
-	1    11000 2150
+P 10600 2150
+F 0 "CON1" H 9950 2700 50  0000 C CNN
+F 1 "SD_Card" H 11200 1600 50  0000 C CNN
+F 2 "Ardas_shield:microsd_socket" H 10800 2500 50  0000 C CNN
+F 3 "" H 10600 2150 60  0000 C CNN
+	1    10600 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -667,13 +666,13 @@ Wire Wire Line
 Wire Notes Line
 	12300 5000 12300 3100
 Wire Wire Line
-	10100 1850 9850 1850
+	9700 1850 9450 1850
 Wire Wire Line
-	10100 1950 9850 1950
+	9700 1950 9450 1950
 Wire Wire Line
-	10100 2150 9850 2150
+	9700 2150 9450 2150
 Wire Wire Line
-	10100 2250 9850 2250
+	9700 2250 9450 2250
 Wire Wire Line
 	11700 1250 11550 1250
 Wire Wire Line
@@ -1183,4 +1182,17 @@ Text GLabel 1500 2400 1    39   Input ~ 0
 GND
 NoConn ~ 11950 4800
 NoConn ~ 12050 4800
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 569E9D5A
+P 11600 1950
+F 0 "JP2" H 11600 2030 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 11610 1890 50  0001 C CNN
+F 2 "RTC_Ardas_test:small_no_jumper" H 11600 1950 50  0001 C CNN
+F 3 "" H 11600 1950 50  0000 C CNN
+	1    11600 1950
+	-1   0    0    1   
+$EndComp
+Text GLabel 11700 1950 2    39   Input ~ 0
+GND
 $EndSCHEMATC
