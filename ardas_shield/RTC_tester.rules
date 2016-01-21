@@ -1,0 +1,141 @@
+
+(rules PCB RTC_tester
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 98)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 203.2)
+    (clear 203.4)
+    (clear 101.6 (type smd_to_turn_gap))
+    (clear 50.8 (type smd_smd))
+  )
+  (padstack "Via[0-1]_1000:635_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1000:635_um" "Via[0-1]_1000:635_um" default
+  )
+  (via 
+    "Via[0-1]_1000:635_um-kicad_default" "Via[0-1]_1000:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1000:635_um-16mil" "Via[0-1]_1000:635_um" 16mil
+  )
+  (via 
+    "Via[0-1]_1000:635_um-20mil" "Via[0-1]_1000:635_um" 20mil
+  )
+  (via 
+    "Via[0-1]_1000:635_um-2mil" "Via[0-1]_1000:635_um" 2mil
+  )
+  (via 
+    "Via[0-1]_1000:635_um-8mil" "Via[0-1]_1000:635_um" 8mil
+  )
+  (via_rule
+    default "Via[0-1]_1000:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1000:635_um-kicad_default"
+  )
+  (via_rule
+    16mil "Via[0-1]_1000:635_um-16mil"
+  )
+  (via_rule
+    20mil "Via[0-1]_1000:635_um-20mil"
+  )
+  (via_rule
+    2mil "Via[0-1]_1000:635_um-2mil"
+  )
+  (via_rule
+    8mil "Via[0-1]_1000:635_um-8mil"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 16mil
+    GND +5V VBAT
+    (clearance_class 16mil)
+    (via_rule 16mil)
+    (rule
+      (width 406.4)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 20mil
+    (clearance_class 20mil)
+    (via_rule 20mil)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 2mil
+    (clearance_class 2mil)
+    (via_rule 2mil)
+    (rule
+      (width 50.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 8mil
+    "Net-(IC1-Pad2)" "Net-(IC1-Pad1)" "Net-(D1-Pad2)" SQW SCL SDA
+    (clearance_class 8mil)
+    (via_rule 8mil)
+    (rule
+      (width 203.2)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
