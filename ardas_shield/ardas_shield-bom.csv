@@ -1,0 +1,38 @@
+Reference, Value, Footprint, Datasheet, Order_Code, MFN, MFP, Pitch_Spacing, Contact_Termination_Type, Gender, Case_Style
+IC1,DS1307,Ardas_shield:SOIC-8-N,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/46359.pdf,9725253,MAXIM INTEGRATED PRODUCTS,DS1307ZN+,,,,
+X1,CRYSTAL,Ardas_shield:XTAL_ABRACON_ABS07,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1883680.pdf,2467865,ABRACON,ABS07-32.768KHZ-1-T,,,,
+U3,SN74LV8154,Ardas_shield:TSSOP-20_4.4x6.5mm_Pitch0.65mm,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1996491.pdf, 1741273,TEXAS INSTRUMENTS,SN74LV8154PW,,,,
+U2,74HC165,Ardas_shield:SOIC-16_3.9x9.9mm_Pitch1.27mm,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1831348.pdf,9591192,TEXAS INSTRUMENTS,SN74HC165D,,,,
+U6,SN74LV8154,Ardas_shield:TSSOP-20_4.4x6.5mm_Pitch0.65mm,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1996491.pdf,1741273,TEXAS INSTRUMENTS,SN74LV8154PW,,,,
+U4,74HC165,Ardas_shield:SOIC-16_3.9x9.9mm_Pitch1.27mm,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1831348.pdf,9591192,TEXAS INSTRUMENTS,SN74HC165D,,,,
+P1,CONN_10,Ardas_shield:Pin_Header_Straight_1x10,,1278412,FCI,69190-410HLF,2.54mm,Through Hole,,
+P3,CONN_8,Ardas_shield:Pin_Header_Straight_1x08,,1924194,FCI,68000-208HLF,2.54mm,Through Hole ,,
+P5,CONN_6,Ardas_shield:Pin_Header_Straight_1x06,,2132359,MOLEX,22-28-4064,2.54mm,Through Hole,,
+P2,CONN_8,Ardas_shield:Pin_Header_Straight_1x08,
+P10,CONN_01X03,Ardas_shield:Pin_Header_Angled_1x03,
+P9,CONN_01X03,Ardas_shield:Pin_Header_Angled_1x03,
+P8,CONN_01X03,Ardas_shield:Pin_Header_Angled_1x03,
+P7,CONN_01X03,Ardas_shield:Pin_Header_Angled_1x03,
+P6,TTL_COMM,Ardas_shield:Pin_Header_Angled_1x03,,1593427,MULTICOMP,MC34747,2.54mm,Through Hole ,Header,
+U7,74LVC1G125,Ardas_shield:SC-70-5,
+U8,74LVC1G125,Ardas_shield:SC-70-5,
+U9,74LVC1G125,Ardas_shield:SC-70-5,
+U5,LD1117S33TR,Ardas_shield:SOT-223,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1776449.pdf,1202826,STMICROELECTRONICS, LD1117S33TR,,,,
+C1,47uF,Ardas_shield:C_0805,
+C2,47uF,Ardas_shield:C_0805,
+P4,CONN_ICSP,Ardas_shield:Socket_Strip_Straight_2x03,,1266033,TE CONNECTIVITY / AMP ,5-534206-3,2.54mm,Through Hole,Receptacle,
+R1,10k,Ardas_shield:R_0805,
+RP1,R_4x4.7k,kicad-gfa local:R_Array_Convex_4x0603,
+RP4,R_4x10k,kicad-gfa local:R_Array_Convex_4x0603,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf
+RP3,R_4x10k,kicad-gfa local:R_Array_Convex_4x0603,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf
+BT1,Battery,Ardas_shield:BATTERY_KEYSTONE_12mm,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1696457.pdf,1650692 ,KEYSTONE ,3000,,,,
+U1,74HC595,Ardas_shield:SOIC-16_7.5x10.3mm_Pitch1.27mm,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1970412.pdf,1595418,TEXAS INSTRUMENTS ,SN74HC595DW,,,,
+D1,LED_RABG,Ardas_shield:led-P-LCC-4-3,
+RP2,R_4x10k,kicad-gfa local:R_Array_Convex_4x0603,
+RP5,R_4x10k,kicad-gfa local:R_Array_Convex_4x0603,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1730408.pdf
+CON1,SD_Card,Ardas_shield:microsd_socket,https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1717993.pdf,2334075,MOLEX,503182-1853,,,,
+R2,150,Ardas_shield:R_0805,,9233903RL ,YAGEO (PHYCOMP) ,RC0805JR-07150RL,,,,0805 [2012 Metric]
+R3,100,Ardas_shield:R_0805,,9233881,YAGEO (PHYCOMP) ,RC0805JR-07100RL,,,,0805 [2012 Metric]
+R4,100,Ardas_shield:R_0805,,9233881,YAGEO (PHYCOMP),RC0805JR-07100RL,,,,805 [2012 Metric]
+JP1,Jumper_NO_Small,RTC_Ardas_test:small_no_jumper,
+JP2,Jumper_NO_Small,RTC_Ardas_test:small_no_jumper,
