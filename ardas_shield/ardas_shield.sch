@@ -167,7 +167,7 @@ F 4 "1924194" V 11700 3500 60  0001 C CNN "Order_Code"
 F 5 "FCI" V 11700 3500 60  0001 C CNN "MFN"
 F 6 "68000-208HLF" V 11700 3500 60  0001 C CNN "MFP"
 F 7 "2.54mm" V 11700 3500 60  0001 C CNN "Pitch_Spacing"
-F 8 "Through Hole " V 11700 3500 60  0001 C CNN "Contact_Termination _Type"
+F 8 "Through Hole " V 11700 3500 60  0001 C CNN "Contact_Termination_Type"
 	1    11700 3500
 	0    1    1    0   
 $EndComp
@@ -182,7 +182,7 @@ F 3 "" H 11800 4600 60  0000 C CNN
 F 4 "2132359" V 11800 4600 60  0001 C CNN "Order_Code"
 F 5 "MOLEX" V 11800 4600 60  0001 C CNN "MFN"
 F 6 "22-28-4064" V 11800 4600 60  0001 C CNN "MFP"
-F 7 "2.54mm" V 11800 4600 60  0001 C CNN " Pitch_Spacing"
+F 7 "2.54mm" V 11800 4600 60  0001 C CNN "Pitch_Spacing"
 F 8 "Through Hole" V 11800 4600 60  0001 C CNN "Contact_Termination_Type"
 	1    11800 4600
 	0    -1   -1   0   
