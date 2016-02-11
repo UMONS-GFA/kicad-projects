@@ -3,7 +3,7 @@
   (general
     (links 211)
     (no_connects 25)
-    (area 10.986501 60.1726 264.729686 136.799301)
+    (area 22.097999 66.471799 115.824001 123.113801)
     (thickness 1.6)
     (drawings 87)
     (tracks 1161)
@@ -2079,7 +2079,7 @@
       (net 85 "Net-(CON1-PadCD1)") (solder_mask_margin 0.1016) (clearance 0.254))
     (pad 9 smd rect (at 4.43992 7.25424 270) (size 1.5 1.15) (layers F.Cu F.Paste F.Mask)
       (solder_mask_margin 0.1016) (clearance 0.254))
-    (model /home/su530201/KiCad_Projects/kicad-gfa.pretty/packages3d/microsd_card.wrl
+    (model GFA_Extra.3dshapes/microsd_card.wrl
       (at (xyz -0.02 -0.00127 0.0254))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -2337,6 +2337,11 @@
       (net 83 "Net-(D1-Pad3)") (solder_mask_margin 0.1016) (clearance 0.254))
     (pad 4 smd rect (at 0.9 1.27 180) (size 1.9 1.27) (layers F.Cu F.Paste F.Mask)
       (net 84 "Net-(D1-Pad4)") (solder_mask_margin 0.1016) (clearance 0.254))
+    (model GFA_Extra.3dshapes/led.wrl
+      (at (xyz -0.09842519700000001 -0.09842519700000001 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SMD_Packages:SOIC-8-N (layer F.Cu) (tedit 5696B66E) (tstamp 5655D18D)
@@ -3095,6 +3100,11 @@
       (net 15 "Net-(IC1-Pad2)") (solder_mask_margin 0.1016) (clearance 0.254))
     (pad 1 smd rect (at -1.25 0) (size 1.9 1.1) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(IC1-Pad1)") (solder_mask_margin 0.1016) (clearance 0.254))
+    (model GFA_Extra.3dshapes/Crystal_Abracon-ABS07.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08 locked (layer B.Cu) (tedit 568D0CF9) (tstamp 4F08F545)
@@ -3757,7 +3767,7 @@
       (net 88 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -1.04902 0) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LEDs.3dshapes/LED-0805.wrl
+    (model LEDs.3dshapes/LED_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3896,6 +3906,11 @@
       (net 15 "Net-(IC1-Pad2)") (solder_mask_margin 0.1016) (clearance 0.254))
     (pad 1 smd rect (at -1.25 0) (size 1.9 1.1) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(IC1-Pad1)") (solder_mask_margin 0.1016) (clearance 0.254))
+    (model GFA_Extra.3dshapes/Crystal_Abracon-ABS07.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Angled_1x03 locked (layer F.Cu) (tedit 569F377D) (tstamp 568AC44F)
@@ -4154,7 +4169,7 @@
       (net 88 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -1.04902 0) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model LEDs.3dshapes/LED-0805.wrl
+    (model LEDs.3dshapes/LED_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4293,6 +4308,11 @@
       (net 15 "Net-(IC1-Pad2)") (solder_mask_margin 0.1016) (clearance 0.254))
     (pad 1 smd rect (at -1.25 0) (size 1.9 1.1) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(IC1-Pad1)") (solder_mask_margin 0.1016) (clearance 0.254))
+    (model GFA_Extra.3dshapes/Crystal_Abracon-ABS07.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Angled_1x03 locked (layer F.Cu) (tedit 569F377D) (tstamp 568AC44F)

@@ -489,29 +489,25 @@ F 3 "" H 9100 1150 60  0000 C CNN
 	1    9100 1150
 	1    0    0    -1  
 $EndComp
-Text Label 9100 850  0    39   ~ 0
-+3.3V
 Text GLabel 8000 950  0    39   Input ~ 0
 +5V
 Text GLabel 9600 1250 0    39   Input ~ 0
 MOSI
 Text GLabel 10600 1250 0    39   Input ~ 0
 SCK
-Text GLabel 9700 2350 0    39   Input ~ 0
-GND
-Text GLabel 9700 2450 0    39   Input ~ 0
+Text GLabel 9700 1950 0    39   Input ~ 0
 MISO
 Text GLabel 9700 2050 0    39   Input ~ 0
 GND
-Text Label 9450 2250 0    39   ~ 0
-SCK3
 Text Label 9450 2150 0    39   ~ 0
+SCK3
+Text Label 9450 2250 0    39   ~ 0
 +3.3V
 Text GLabel 8600 1250 3    39   Input ~ 0
 GND
-Text Label 9450 1950 0    39   ~ 0
+Text Label 9450 2350 0    39   ~ 0
 MOSI3
-Text Label 9450 1850 0    39   ~ 0
+Text Label 9450 2450 0    39   ~ 0
 SEN3
 $Comp
 L CONN_02X03 P4
@@ -612,12 +608,10 @@ F 3 "" H 1000 1200 60  0000 C CNN
 	1    1000 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10150 1050 2    39   Input ~ 0
-+5V
 Text GLabel 11100 1050 2    39   Input ~ 0
-+5V
++3.3V
 Text GLabel 12050 1050 2    39   Input ~ 0
-+5V
++3.3V
 $Comp
 L Battery BT1
 U 1 1 56585D30
@@ -686,7 +680,6 @@ F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/173040
 $EndComp
 NoConn ~ 4600 2100
 NoConn ~ 2000 4200
-NoConn ~ 11500 2050
 NoConn ~ 13200 1000
 $Comp
 L SD_Card CON1
@@ -722,10 +715,6 @@ Wire Wire Line
 	4900 1200 4900 3750
 Wire Notes Line
 	12300 5000 12300 3100
-Wire Wire Line
-	9700 1850 9450 1850
-Wire Wire Line
-	9700 1950 9450 1950
 Wire Wire Line
 	9700 2150 9450 2150
 Wire Wire Line
@@ -1196,7 +1185,7 @@ L R R2
 U 1 1 568BE18A
 P 12350 2000
 F 0 "R2" V 12430 2000 50  0000 C CNN
-F 1 "150" V 12350 2000 50  0000 C CNN
+F 1 "4.7k" V 12350 2000 50  0000 C CNN
 F 2 "Ardas_shield:R_0805" V 12280 2000 50  0001 C CNN
 F 3 "" H 12350 2000 50  0000 C CNN
 F 4 "9233903RL " V 12350 2000 60  0001 C CNN "Order_Code"
@@ -1211,7 +1200,7 @@ L R R3
 U 1 1 568BE39C
 P 12350 2200
 F 0 "R3" V 12430 2200 50  0000 C CNN
-F 1 "100" V 12350 2200 50  0000 C CNN
+F 1 "10k" V 12350 2200 50  0000 C CNN
 F 2 "Ardas_shield:R_0805" V 12280 2200 50  0001 C CNN
 F 3 "" H 12350 2200 50  0000 C CNN
 F 4 "9233881" V 12350 2200 60  0001 C CNN "Order_Code"
@@ -1226,7 +1215,7 @@ L R R4
 U 1 1 568BE4E9
 P 12350 2400
 F 0 "R4" V 12430 2400 50  0000 C CNN
-F 1 "100" V 12350 2400 50  0000 C CNN
+F 1 "4.7k" V 12350 2400 50  0000 C CNN
 F 2 "Ardas_shield:R_0805" V 12280 2400 50  0001 C CNN
 F 3 "" H 12350 2400 50  0000 C CNN
 F 4 "9233881" V 12350 2400 60  0001 C CNN "Order_Code"
@@ -1264,4 +1253,12 @@ F 3 "" H 11600 1950 50  0000 C CNN
 $EndComp
 Text GLabel 11700 1950 2    39   Input ~ 0
 GND
+Wire Wire Line
+	9700 2350 9450 2350
+Wire Wire Line
+	9700 2450 9450 2450
+Text GLabel 10150 1050 2    39   Input ~ 0
++3.3V
+Text GLabel 9100 850  1    39   Input ~ 0
++3.3V
 $EndSCHEMATC
