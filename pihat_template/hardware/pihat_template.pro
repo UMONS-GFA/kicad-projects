@@ -1,4 +1,4 @@
-update=Thu 24 Dec 2015 04:01:50 AM EST
+update=mar 31 oct 2017 15:35:26 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,8 +26,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.4
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=project_libs
@@ -109,3 +107,13 @@ LibName74=video
 LibName75=Xicor
 LibName76=xilinx
 LibName77=Zilog
+LibName78=project_libs/cat24c32hu4i-gt3
+LibName79=project_libs/DMMT5401
+LibName80=project_libs/fdc5614p
+LibName81=project_libs/lm1117
+LibName82=project_libs/lm3489
+LibName83=project_libs/max1164x
+LibName84=project_libs/mcp23017
+LibName85=project_libs/raspberry_pi_+_conn
+[general]
+version=1
