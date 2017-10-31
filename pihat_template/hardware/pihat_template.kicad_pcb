@@ -1291,7 +1291,7 @@
     )
   )
 
-  (module kicad-gfa:VSSOP-8_3.0x3.0mm_Pitch0.65mm (layer F.Cu) (tedit 59E7C95B) (tstamp 567BAC8F)
+  (module project:VSSOP-8_3.0x3.0mm_Pitch0.65mm (layer F.Cu) (tedit 59E7C95B) (tstamp 567BAC8F)
     (at 125.5 121.7 180)
     (descr "VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf")
     (tags "VSSOP-8 3.0 x 3.0")
