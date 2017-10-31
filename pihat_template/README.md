@@ -22,3 +22,5 @@ git clone http://git.openfet.com/julien/pihat-template
 ```
 Open the project in KiCad, you may need to add the library "project-libs" using the library wizard. Then you can add your own components, once the components are added you can tie them to the 3.3v or 5v net depending on what voltages are required. Once done you can then choose the components from CvPCB application. Export the netlist and then import it in PCBNew. 
 
+### Customized design GFA-UMONS ###
+2017/10/31 Changed LM3489 footprint from MSOP to VSSOP 
