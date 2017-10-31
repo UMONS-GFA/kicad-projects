@@ -76,6 +76,14 @@ LIBS:video
 LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
+LIBS:cat24c32hu4i-gt3
+LIBS:DMMT5401
+LIBS:fdc5614p
+LIBS:lm1117
+LIBS:lm3489
+LIBS:max1164x
+LIBS:mcp23017
+LIBS:raspberry_pi_+_conn
 LIBS:pihat_template-cache
 EELAYER 25 0
 EELAYER END
@@ -100,6 +108,7 @@ F 1 "Raspberry_Pi_+_Conn" H 6050 2450 60  0000 C CNN
 F 2 "w_conn_strip:vasch_strip_20x2" H 5750 3900 60  0001 C CNN
 F 3 "" H 5750 3900 60  0000 C CNN
 F 4 "517-30340-6002" H 5750 3900 60  0001 C CNN "Mouser Part No."
+F 5 "2668422" H 5750 3900 60  0001 C CNN "Farnell Part No."
 	1    5750 3900
 	-1   0    0    -1  
 $EndComp
@@ -112,6 +121,7 @@ F 1 "CAT24C32HU4I-GT3" H 3400 3600 60  0000 C CNN
 F 2 "w_smd_dil:tssop-8" H 3000 4400 60  0001 C CNN
 F 3 "" H 3000 4400 60  0000 C CNN
 F 4 "698-CAT24C32YI-GT3" H 3000 4400 60  0001 C CNN "Mouser Part No."
+F 5 "2463727" H 3000 4400 60  0001 C CNN "Farnell Part No."
 	1    3000 4400
 	1    0    0    -1  
 $EndComp
@@ -146,6 +156,7 @@ F 1 "1k" V 2007 4651 40  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 1930 4650 30  0001 C CNN
 F 3 "" H 2000 4650 30  0000 C CNN
 F 4 "754-RR0510P-102D" V 2000 4650 60  0001 C CNN "Mouser Part No."
+F 5 "2324716" V 2000 4650 60  0001 C CNN "Farnell Part No."
 	1    2000 4650
 	1    0    0    -1  
 $EndComp
@@ -157,6 +168,7 @@ F 0 "P1" H 950 5150 50  0000 C CNN
 F 1 "CONN_01X02" V 1050 5000 50  0000 C CNN
 F 2 "w_pin_strip:pin_strip_2" H 950 5000 60  0001 C CNN
 F 3 "" H 950 5000 60  0000 C CNN
+F 4 "?" H 950 5000 60  0001 C CNN "Farnell Part No."
 	1    950  5000
 	-1   0    0    1   
 $EndComp
@@ -180,6 +192,7 @@ F 1 "3.9k" V 3857 4001 40  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 3780 4000 30  0001 C CNN
 F 3 "" H 3850 4000 30  0000 C CNN
 F 4 "71-CRCW04023K90FKED" V 3850 4000 60  0001 C CNN "Mouser Part No."
+F 5 "2563570" V 3850 4000 60  0001 C CNN "Farnell Part No."
 	1    3850 4000
 	1    0    0    -1  
 $EndComp
@@ -192,6 +205,7 @@ F 1 "3.9k" V 4107 4001 40  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 4030 4000 30  0001 C CNN
 F 3 "" H 4100 4000 30  0000 C CNN
 F 4 "71-CRCW04023K90FKED" V 4100 4000 60  0001 C CNN "Mouser Part No."
+F 5 "2563570" V 4100 4000 60  0001 C CNN "Farnell Part No."
 	1    4100 4000
 	1    0    0    -1  
 $EndComp
@@ -203,6 +217,7 @@ F 0 "JP1" H 1600 5350 60  0000 C CNN
 F 1 "JUMPER" H 1600 5120 40  0000 C CNN
 F 2 "w_smd_resistors:r_0603" H 1600 5200 60  0001 C CNN
 F 3 "" H 1600 5200 60  0000 C CNN
+F 4 "?" H 1600 5200 60  0001 C CNN "Farnell Part No."
 	1    1600 5200
 	1    0    0    1   
 $EndComp
@@ -260,6 +275,7 @@ F 1 "24k" V 2007 8701 40  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 1930 8700 30  0001 C CNN
 F 3 "" H 2000 8700 30  0000 C CNN
 F 4 "71-CRCW0402-24K-E3" V 2000 8700 60  0001 C CNN "Mouser Part No."
+F 5 "2379837" V 2000 8700 60  0001 C CNN "Farnell Part No."
 	1    2000 8700
 	1    0    0    -1  
 $EndComp
@@ -272,6 +288,7 @@ F 1 "0.1uf" H 1556 9465 40  0000 L CNN
 F 2 "w_smd_cap:c_0402" H 1588 9400 30  0001 C CNN
 F 3 "" H 1550 9550 60  0000 C CNN
 F 4 "810-C1005X5R1H104K" H 1550 9550 60  0001 C CNN "Mouser Part No."
+F 5 "2210822" H 1550 9550 60  0001 C CNN "Farnell Part No."
 	1    1550 9550
 	1    0    0    -1  
 $EndComp
@@ -306,6 +323,7 @@ F 1 "50uf/50v" H 1150 8550 40  0000 L CNN
 F 2 "w_smd_cap:c_elec_6.3x7.7" H 1200 8500 30  0001 C CNN
 F 3 "" H 1100 8650 300 0000 C CNN
 F 4 "647-UUR1H470MCL6GS" H 1100 8650 60  0001 C CNN "Mouser Part No."
+F 5 "1973367" H 1100 8650 60  0001 C CNN "Farnell Part No."
 	1    1100 8650
 	1    0    0    -1  
 $EndComp
@@ -318,6 +336,7 @@ F 1 "1nf" H 1806 8615 40  0000 L CNN
 F 2 "w_smd_cap:c_0402" H 1838 8550 30  0001 C CNN
 F 3 "" H 1800 8700 60  0000 C CNN
 F 4 "810-C1005C0G2A102J5C" H 1800 8700 60  0001 C CNN "Mouser Part No."
+F 5 "1907278" H 1800 8700 60  0001 C CNN "Farnell Part No."
 	1    1800 8700
 	1    0    0    -1  
 $EndComp
@@ -341,6 +360,7 @@ F 1 "270" V 3907 8701 40  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 3830 8700 30  0001 C CNN
 F 3 "" H 3900 8700 30  0000 C CNN
 F 4 "667-ERJ-P6WJ271V" V 3900 8700 60  0001 C CNN "Mouser Part No."
+F 5 "2324732" V 3900 8700 60  0001 C CNN "Farnell Part No."
 	1    3900 8700
 	1    0    0    -1  
 $EndComp
@@ -365,6 +385,7 @@ F 1 "22uH" V 4700 8200 40  0000 C CNN
 F 2 "w_smd_inductors:inductor_smd_8x5mm" H 4600 8200 60  0001 C CNN
 F 3 "" H 4600 8200 60  0000 C CNN
 F 4 "652-SRN8040-220M" V 4600 8200 60  0001 C CNN "Mouser Part No."
+F 5 "2061671" V 4600 8200 60  0001 C CNN "Farnell Part No."
 	1    4600 8200
 	0    -1   -1   0   
 $EndComp
@@ -377,6 +398,7 @@ F 1 "30k" V 5057 8701 40  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 4980 8700 30  0001 C CNN
 F 3 "" H 5050 8700 30  0000 C CNN
 F 4 "594-MCT06030C3002FP5" V 5050 8700 60  0001 C CNN "Mouser Part No."
+F 5 "2379844" V 5050 8700 60  0001 C CNN "Farnell Part No."
 	1    5050 8700
 	1    0    0    -1  
 $EndComp
@@ -389,6 +411,7 @@ F 1 "10k" V 5057 9651 40  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 4980 9650 30  0001 C CNN
 F 3 "" H 5050 9650 30  0000 C CNN
 F 4 "71-CRCW0603-10K-E3" V 5050 9650 60  0001 C CNN "Mouser Part No."
+F 5 "2324717" V 5050 9650 60  0001 C CNN "Farnell Part No."
 	1    5050 9650
 	1    0    0    -1  
 $EndComp
@@ -412,6 +435,7 @@ F 1 "FDC5614P" H 3250 8100 60  0000 C CNN
 F 2 "w_smd_trans:sot23-6" H 3100 8500 60  0001 C CNN
 F 3 "" H 3100 8500 60  0000 C CNN
 F 4 "512-FDC5614P" H 3250 8350 60  0001 C CNN "Mouser Part No."
+F 5 "1471036" H 3250 8350 60  0001 C CNN "Farnell Part No."
 	1    3250 8350
 	-1   0    0    -1  
 $EndComp
@@ -458,6 +482,7 @@ F 1 "LM1117IMPX-ADJ" H 8550 8000 60  0000 C CNN
 F 2 "w_smd_trans:sot223" H 8100 8250 60  0001 C CNN
 F 3 "" H 8100 8250 60  0000 C CNN
 F 4 "926-M1117IMPXADJNOPB" H 8100 8300 60  0001 C CNN "Mouser Part No."
+F 5 "2463930" H 8100 8300 60  0001 C CNN "Farnell Part No."
 	1    8100 8300
 	1    0    0    -1  
 $EndComp
@@ -481,6 +506,7 @@ F 1 "10uf/6.3V" H 7400 8550 50  0000 L CNN
 F 2 "w_smd_cap:c_elec_4x5.3" H 7450 8500 30  0001 C CNN
 F 3 "" H 7350 8650 300 0000 C CNN
 F 4 "5985-AVS16V100-F" H 7350 8650 60  0001 C CNN "Mouser Part No."
+F 5 "2466348" H 7350 8650 60  0001 C CNN "Farnell Part No."
 	1    7350 8650
 	1    0    0    -1  
 $EndComp
@@ -493,6 +519,7 @@ F 1 "390" V 8107 9301 50  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 8030 9300 30  0001 C CNN
 F 3 "" H 8100 9300 30  0000 C CNN
 F 4 "594-MCT06030C3900FP5" V 8100 9300 60  0001 C CNN "Mouser Part No."
+F 5 "2379851" V 8100 9300 60  0001 C CNN "Farnell Part No."
 	1    8100 9300
 	1    0    0    -1  
 $EndComp
@@ -505,6 +532,7 @@ F 1 "240" V 9157 8601 50  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 9080 8600 30  0001 C CNN
 F 3 "" H 9150 8600 30  0000 C CNN
 F 4 "754-RR0816P-241D" V 9150 8600 60  0001 C CNN "Mouser Part No."
+F 5 "2379835" V 9150 8600 60  0001 C CNN "Farnell Part No."
 	1    9150 8600
 	1    0    0    -1  
 $EndComp
@@ -550,6 +578,7 @@ F 1 "LED" H 10550 8450 50  0000 C CNN
 F 2 "w_smd_leds:Led_0603" H 10550 8550 60  0001 C CNN
 F 3 "" H 10550 8550 60  0000 C CNN
 F 4 "743-HT-191USD" H 10550 8550 60  0001 C CNN "Mouser Part No."
+F 5 "1652083" H 10550 8550 60  0001 C CNN "Farnell Part No."
 	1    10550 8550
 	0    1    1    0   
 $EndComp
@@ -562,6 +591,7 @@ F 1 "360" V 10557 9201 50  0000 C CNN
 F 2 "w_smd_resistors:r_0402" V 10480 9200 30  0001 C CNN
 F 3 "" H 10550 9200 30  0000 C CNN
 F 4 "71-CRCW0603316RFKEB" V 10550 9200 60  0001 C CNN "Mouser Part No."
+F 5 "2379848" V 10550 9200 60  0001 C CNN "Farnell Part No."
 	1    10550 9200
 	1    0    0    -1  
 $EndComp
@@ -600,6 +630,7 @@ F 1 "0.1uf" H 4806 8615 40  0000 L CNN
 F 2 "w_smd_cap:c_0402" H 4838 8550 30  0001 C CNN
 F 3 "" H 4800 8700 60  0000 C CNN
 F 4 "810-C1005X5R1H104K" H 4800 8700 60  0001 C CNN "Mouser Part No."
+F 5 "2210822" H 4800 8700 60  0001 C CNN "Farnell Part No."
 	1    4800 8700
 	1    0    0    -1  
 $EndComp
@@ -612,6 +643,7 @@ F 1 "0.1uf" H 9506 8465 40  0000 L CNN
 F 2 "w_smd_cap:c_0402" H 9538 8400 30  0001 C CNN
 F 3 "" H 9500 8550 60  0000 C CNN
 F 4 "810-C1005X5R1H104K" H 9500 8550 60  0001 C CNN "Mouser Part No."
+F 5 "2210822" H 9500 8550 60  0001 C CNN "Farnell Part No."
 	1    9500 8550
 	1    0    0    -1  
 $EndComp
@@ -624,6 +656,7 @@ F 1 "CONN_01X02" V 3450 6950 50  0000 C CNN
 F 2 "w_conn_mkds:mkds_1,5-2" H 3350 6950 60  0001 C CNN
 F 3 "" H 3350 6950 60  0000 C CNN
 F 4 "651-1904383" H 3350 6950 60  0001 C CNN "Mouser Part No."
+F 5 "2008004" H 3350 6950 60  0001 C CNN "Farnell Part No."
 	1    3350 6950
 	1    0    0    -1  
 $EndComp
@@ -658,6 +691,7 @@ F 1 "0.1uf" H 2356 4615 40  0000 L CNN
 F 2 "w_smd_cap:c_0402" H 2388 4550 30  0001 C CNN
 F 3 "" H 2350 4700 60  0000 C CNN
 F 4 "810-C1005X5R1H104K" H 2350 4700 60  0001 C CNN "Mouser Part No."
+F 5 "2210822" H 2350 4700 60  0001 C CNN "Farnell Part No."
 	1    2350 4700
 	1    0    0    -1  
 $EndComp
@@ -926,6 +960,7 @@ F 1 "1uf" H 9906 8465 40  0000 L CNN
 F 2 "w_smd_cap:c_0402" H 9938 8400 30  0001 C CNN
 F 3 "" H 9900 8550 60  0000 C CNN
 F 4 "810-C1005X5R1H104K" H 9900 8550 60  0001 C CNN "Mouser Part No."
+F 5 "2346885" H 9900 8550 60  0001 C CNN "Farnell Part No."
 	1    9900 8550
 	1    0    0    -1  
 $EndComp
