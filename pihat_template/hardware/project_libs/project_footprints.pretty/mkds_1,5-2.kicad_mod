@@ -23,7 +23,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIGIGALIB3DMOD}walter/conn_mkds/mkds_1,5-2.wrl
+  (model ${KIGIGALIB3DMOD}/walter/conn_mkds/mkds_1,5-2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
