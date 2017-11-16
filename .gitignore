@@ -1,0 +1,6 @@
+kicad-libs
+kicad-gfa.pretty
+CleanUp
+*.xml
+*.bak
+*.kicad_pcb-bak
