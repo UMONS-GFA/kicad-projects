@@ -1,9 +1,9 @@
-(module Led_0603 (layer F.Cu) (tedit 567BA339)
+(module Led_0603 (layer F.Cu) (tedit 5A022C93)
   (descr "SMD LED, 0603")
-  (fp_text reference D3 (at -0.0507 1) (layer F.SilkS)
-    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  (fp_text reference Ref** (at -0.0507 1) (layer F.SilkS)
+    (effects (font (size 0.29972 0.29972) (thickness 0.07493)))
   )
-  (fp_text value LED (at 0 1.19888) (layer F.SilkS) hide
+  (fp_text value LED (at 0 -0.9144) (layer F.SilkS) hide
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_line (start 0.29972 0.50038) (end 0.29972 -0.50038) (layer F.SilkS) (width 0.127))

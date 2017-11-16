@@ -1,6 +1,6 @@
-(module sot23-6 (layer F.Cu) (tedit 0)
+(module sot23-6 (layer F.Cu) (tedit 5A022BF6)
   (descr SOT23-6)
-  (fp_text reference U5 (at 2 -0.3 90) (layer F.SilkS)
+  (fp_text reference Ref** (at 2 -0.3 90) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_text value DMMT5401 (at 0 0) (layer F.SilkS) hide
@@ -31,7 +31,7 @@
   )
   (model ${KIGIGALIB3DMOD}walter/smd_trans/sot323-6.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 1.5 1 1))
     (rotate (xyz 0 0 0))
   )
 )

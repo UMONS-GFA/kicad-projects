@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/su530201/KiCad_Projects/pihat_template/hardware/pihat_template.sch)
-    (date "lun 06 nov 2017 16:11:23 CET")
+    (date "mer 08 nov 2017 00:04:12 CET")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -28,7 +28,7 @@
   (components
     (comp (ref P3)
       (value Raspberry_Pi_+_Conn)
-      (footprint w_pin_strip:pin_socket_20x2)
+      (footprint project:pin_socket_20x2_mirrored)
       (fields
         (field (name "Mouser Part No.") 517-30340-6002)
         (field (name "Farnell Part No.") 2668422))
@@ -36,17 +36,16 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54E92361))
     (comp (ref U2)
-      (value CAT24C32HU4I-GT3)
-      (footprint w_smd_dil:tssop-8)
+      (value CAT24C04WI-GT3)
+      (footprint project:CAT24C04WI-GT3)
       (fields
-        (field (name "Mouser Part No.") 698-CAT24C32YI-GT3)
-        (field (name "Farnell Part No.") 2463727))
+        (field (name "Farnell Part No.") 2463704))
       (libsource (lib cat24c32hu4i-gt3) (part CAT24C32HU4I-GT3))
       (sheetpath (names /) (tstamps /))
       (tstamp 54E93419))
     (comp (ref R1)
       (value 1k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 754-RR0510P-102D)
         (field (name "Farnell Part No.") 2324716))
@@ -55,7 +54,7 @@
       (tstamp 54E935B8))
     (comp (ref P1)
       (value CONN_01X02)
-      (footprint w_pin_strip:pin_strip_2)
+      (footprint project:pin_strip_2)
       (fields
         (field (name "Farnell Part No.") ?))
       (libsource (lib conn) (part CONN_01X02))
@@ -63,7 +62,7 @@
       (tstamp 54E93748))
     (comp (ref R3)
       (value 3.9k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 71-CRCW04023K90FKED)
         (field (name "Farnell Part No.") 2563570))
@@ -72,7 +71,7 @@
       (tstamp 54E93F03))
     (comp (ref R5)
       (value 3.9k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 71-CRCW04023K90FKED)
         (field (name "Farnell Part No.") 2563570))
@@ -81,7 +80,7 @@
       (tstamp 54E93F5E))
     (comp (ref JP1)
       (value JUMPER)
-      (footprint w_smd_resistors:r_0603)
+      (footprint project:r_0603)
       (fields
         (field (name "Farnell Part No.") ?))
       (libsource (lib device) (part JUMPER))
@@ -97,7 +96,7 @@
       (tstamp 54E983ED))
     (comp (ref R2)
       (value 24k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 71-CRCW0402-24K-E3)
         (field (name "Farnell Part No.") 2379837))
@@ -106,7 +105,7 @@
       (tstamp 54E985D4))
     (comp (ref C2)
       (value 0.1uf)
-      (footprint w_smd_cap:c_0402)
+      (footprint project:c_0805)
       (fields
         (field (name "Mouser Part No.") 810-C1005X5R1H104K)
         (field (name "Farnell Part No.") 2210822))
@@ -115,7 +114,7 @@
       (tstamp 54E98A38))
     (comp (ref C1)
       (value 50uf/50v)
-      (footprint w_smd_cap:c_elec_6.3x7.7)
+      (footprint project:c_elec_6.3x7.7)
       (fields
         (field (name "Mouser Part No.") 647-UUR1H470MCL6GS)
         (field (name "Farnell Part No.") 1973367))
@@ -124,7 +123,7 @@
       (tstamp 54E990D4))
     (comp (ref C3)
       (value 1nf)
-      (footprint w_smd_cap:c_0402)
+      (footprint project:c_0805)
       (fields
         (field (name "Mouser Part No.") 810-C1005C0G2A102J5C)
         (field (name "Farnell Part No.") 1907278))
@@ -133,7 +132,7 @@
       (tstamp 54E992BB))
     (comp (ref R4)
       (value 270)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 667-ERJ-P6WJ271V)
         (field (name "Farnell Part No.") 2324732))
@@ -142,7 +141,7 @@
       (tstamp 54E99E56))
     (comp (ref D1)
       (value DIODESCH)
-      (footprint w_smd_diode:do214aa)
+      (footprint project:do214aa)
       (fields
         (field (name "Farnell Part No.") 2628293))
       (libsource (lib device) (part D_Schottky))
@@ -150,7 +149,7 @@
       (tstamp 54E9A29D))
     (comp (ref L1)
       (value 22uH)
-      (footprint w_smd_inductors:inductor_smd_8x5mm)
+      (footprint project:inductor_smd_8x5mm)
       (fields
         (field (name "Mouser Part No.") 652-SRN8040-220M)
         (field (name "Farnell Part No.") 2061671))
@@ -159,7 +158,7 @@
       (tstamp 54E9A542))
     (comp (ref R6)
       (value 30k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 594-MCT06030C3002FP5)
         (field (name "Farnell Part No.") 2379844))
@@ -168,7 +167,7 @@
       (tstamp 54E9A686))
     (comp (ref R7)
       (value 10k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 71-CRCW0603-10K-E3)
         (field (name "Farnell Part No.") 2324717))
@@ -177,7 +176,7 @@
       (tstamp 54E9A704))
     (comp (ref U3)
       (value FDC5614P)
-      (footprint w_smd_trans:sot23-6)
+      (footprint project:sot23-6)
       (fields
         (field (name "Mouser Part No.") 512-FDC5614P)
         (field (name "Farnell Part No.") 1471036))
@@ -186,7 +185,7 @@
       (tstamp 54E9C27B))
     (comp (ref U4)
       (value LM1117IMPX-ADJ)
-      (footprint w_smd_trans:sot223)
+      (footprint project:sot223)
       (fields
         (field (name "Mouser Part No.") 926-M1117IMPXADJNOPB)
         (field (name "Farnell Part No.") 2463930))
@@ -195,7 +194,7 @@
       (tstamp 54F307E9))
     (comp (ref C6)
       (value 10uf/6.3V)
-      (footprint w_smd_cap:c_elec_4x5.3)
+      (footprint project:c_elec_4x5.3)
       (fields
         (field (name "Mouser Part No.") 5985-AVS16V100-F)
         (field (name "Farnell Part No.") 2466348))
@@ -204,7 +203,7 @@
       (tstamp 54F356B7))
     (comp (ref R8)
       (value 390)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 594-MCT06030C3900FP5)
         (field (name "Farnell Part No.") 2379851))
@@ -213,7 +212,7 @@
       (tstamp 54F36302))
     (comp (ref R9)
       (value 240)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 754-RR0816P-241D)
         (field (name "Farnell Part No.") 2379835))
@@ -222,7 +221,7 @@
       (tstamp 54F36377))
     (comp (ref D3)
       (value LED)
-      (footprint w_smd_leds:Led_0603)
+      (footprint project:Led_0603)
       (fields
         (field (name "Mouser Part No.") 743-HT-191USD)
         (field (name "Farnell Part No.") 1652083))
@@ -231,7 +230,7 @@
       (tstamp 54F3E98A))
     (comp (ref R10)
       (value 360)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 71-CRCW0603316RFKEB)
         (field (name "Farnell Part No.") 2379848))
@@ -240,7 +239,7 @@
       (tstamp 54F40F53))
     (comp (ref C5)
       (value 0.1uf)
-      (footprint w_smd_cap:c_0402)
+      (footprint project:c_0805)
       (fields
         (field (name "Mouser Part No.") 810-C1005X5R1H104K)
         (field (name "Farnell Part No.") 2210822))
@@ -249,7 +248,7 @@
       (tstamp 54EE7CB1))
     (comp (ref C7)
       (value 0.1uf)
-      (footprint w_smd_cap:c_0402)
+      (footprint project:c_0805)
       (fields
         (field (name "Mouser Part No.") 810-C1005X5R1H104K)
         (field (name "Farnell Part No.") 2210822))
@@ -258,7 +257,7 @@
       (tstamp 54EE8291))
     (comp (ref P2)
       (value CONN_01X02)
-      (footprint w_conn_mkds:mkds_1,5-2)
+      (footprint project:mkds_1,5-2)
       (fields
         (field (name "Mouser Part No.") 651-1904383)
         (field (name "Farnell Part No.") 2008004))
@@ -267,7 +266,7 @@
       (tstamp 54F65B78))
     (comp (ref C4)
       (value 0.1uf)
-      (footprint w_smd_cap:c_0402)
+      (footprint project:c_0805)
       (fields
         (field (name "Mouser Part No.") 810-C1005X5R1H104K)
         (field (name "Farnell Part No.") 2210822))
@@ -276,7 +275,7 @@
       (tstamp 551D5AC8))
     (comp (ref C8)
       (value 1uf)
-      (footprint w_smd_cap:c_0402)
+      (footprint project:c_0805)
       (fields
         (field (name "Mouser Part No.") 810-C1005X5R1H104K)
         (field (name "Farnell Part No.") 2346885))
@@ -285,7 +284,7 @@
       (tstamp 567BDDCB))
     (comp (ref Q1)
       (value BSS138)
-      (footprint w_smd_trans:sot23)
+      (footprint project:sot23)
       (fields
         (field (name "Mouser Part No.") 621-DMG2305UX-13)
         (field (name "Farnell Part No.") 9845330))
@@ -294,7 +293,7 @@
       (tstamp 54F14605))
     (comp (ref U5)
       (value DMMT5401)
-      (footprint w_smd_trans:sot23-6)
+      (footprint project:sot23-6)
       (fields
         (field (name "Mouser Part No.") 621-DMMT5401-7-F)
         (field (name "Farnell Part No.") 1773583))
@@ -303,7 +302,7 @@
       (tstamp 54F1CFA3))
     (comp (ref R12)
       (value 47k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 667-ERJ-2RKF4702X)
         (field (name "Farnell Part No.") 6379860))
@@ -312,7 +311,7 @@
       (tstamp 54F1D101))
     (comp (ref R11)
       (value 10k)
-      (footprint w_smd_resistors:r_0402)
+      (footprint project:r_0805)
       (fields
         (field (name "Mouser Part No.") 71-CRCW0402-10K-E3)
         (field (name "Farnell Part No.") 2324717))
@@ -530,24 +529,24 @@
         (pin (num 39) (name GND) (type input))
         (pin (num 40) (name GPIO21) (type input)))))
   (libraries
-    (library (logical transistors)
-      (uri /usr/share/kicad/library/transistors.lib))
-    (library (logical DMMT5401)
-      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/DMMT5401.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical raspberry_pi_+_conn)
-      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/raspberry_pi_+_conn.lib))
-    (library (logical fdc5614p)
-      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/fdc5614p.lib))
     (library (logical lm1117)
       (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/lm1117.lib))
+    (library (logical fdc5614p)
+      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/fdc5614p.lib))
+    (library (logical raspberry_pi_+_conn)
+      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/raspberry_pi_+_conn.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical transistors)
+      (uri /usr/share/kicad/library/transistors.lib))
+    (library (logical cat24c32hu4i-gt3)
+      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/cat24c32hu4i-gt3.lib))
     (library (logical lm3489)
       (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/lm3489.lib))
-    (library (logical cat24c32hu4i-gt3)
-      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/cat24c32hu4i-gt3.lib)))
+    (library (logical DMMT5401)
+      (uri /home/su530201/KiCad_Projects/pihat_template/hardware/project_libs/DMMT5401.lib)))
   (nets
     (net (code 1) (name "Net-(C3-Pad2)")
       (node (ref U1) (pin 5))
