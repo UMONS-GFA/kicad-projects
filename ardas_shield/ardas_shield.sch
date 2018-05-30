@@ -337,8 +337,6 @@ Text GLabel 2100 1750 1    39   Input ~ 0
 A05
 Text GLabel 11750 3300 1    39   Input ~ 0
 D03
-Text GLabel 11650 3300 1    39   Input ~ 0
-D04
 Text GLabel 11550 3300 1    39   Input ~ 0
 D05
 Text GLabel 11450 3300 1    39   Input ~ 0
@@ -425,12 +423,6 @@ F 9 "Receptacle" H 11800 4050 60  0001 C CNN "Gender"
 $EndComp
 Text GLabel 12050 3950 2    39   Input ~ 0
 +5V
-Text GLabel 11550 3950 0    39   Input ~ 0
-MISO
-Text GLabel 11550 4050 0    39   Input ~ 0
-SCK
-Text GLabel 12050 4050 2    39   Input ~ 0
-MOSI
 Text GLabel 12050 4150 2    39   Input ~ 0
 GND
 Text Notes 12850 3050 0    39   ~ 0
@@ -1076,4 +1068,8 @@ NoConn ~ 11950 4800
 NoConn ~ 12050 4800
 Text Notes 9250 6650 0    60   Italic 12
 SHOULDN'T WE SET PIN 10 TO GND OR VCC?
+NoConn ~ 12050 4050
+NoConn ~ 11550 3950
+NoConn ~ 11550 4050
+NoConn ~ 11650 3300
 $EndSCHEMATC
