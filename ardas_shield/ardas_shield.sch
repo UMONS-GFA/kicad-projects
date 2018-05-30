@@ -1074,19 +1074,6 @@ Text GLabel 1500 2400 1    39   Input ~ 0
 GND
 NoConn ~ 11950 4800
 NoConn ~ 12050 4800
-$Comp
-L Jumper_NO_Small JP2
-U 1 1 569E9D5A
-P 11600 1950
-F 0 "JP2" H 11600 2030 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 11610 1890 50  0001 C CNN
-F 2 "kicad-gfa local:small_no_jumper" H 11600 1950 50  0001 C CNN
-F 3 "" H 11600 1950 50  0000 C CNN
-	1    11600 1950
-	-1   0    0    1   
-$EndComp
-Text GLabel 11700 1950 2    39   Input ~ 0
-GND
 Text Notes 9250 6650 0    60   Italic 12
 SHOULDN'T WE SET PIN 10 TO GND OR VCC?
 $EndSCHEMATC
