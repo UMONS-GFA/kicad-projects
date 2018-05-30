@@ -404,99 +404,8 @@ F 3 "" H 800 700 60  0000 C CNN
 	1    800  700 
 	1    0    0    -1  
 $EndComp
-Text GLabel 9100 1300 3    39   Input ~ 0
-GND
 Text Notes 10250 3050 0    39   ~ 0
 Arduino Uno R3 connectors
-Text GLabel 8100 1300 3    39   Input ~ 0
-GND
-Text GLabel 9600 900  0    39   Input ~ 0
-GND
-$Comp
-L 74LVC1G125 U7
-U 1 1 56550034
-P 10100 1100
-F 0 "U7" H 10000 1250 40  0000 C CNN
-F 1 "74LVC1G125" H 10100 950 40  0000 C CNN
-F 2 "kicad-gfa local:SC-70-5" H 10100 1100 60  0001 C CNN
-F 3 "" H 10100 1100 60  0000 C CNN
-	1    10100 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LVC1G125 U8
-U 1 1 56550392
-P 11050 1100
-F 0 "U8" H 10950 1250 40  0000 C CNN
-F 1 "74LVC1G125" H 11050 950 40  0000 C CNN
-F 2 "kicad-gfa local:SC-70-5" H 11050 1100 60  0001 C CNN
-F 3 "" H 11050 1100 60  0000 C CNN
-	1    11050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74LVC1G125 U9
-U 1 1 5655048F
-P 12000 1100
-F 0 "U9" H 11900 1250 40  0000 C CNN
-F 1 "74LVC1G125" H 12000 950 40  0000 C CNN
-F 2 "kicad-gfa local:SC-70-5" H 12000 1100 60  0001 C CNN
-F 3 "" H 12000 1100 60  0000 C CNN
-	1    12000 1100
-	1    0    0    -1  
-$EndComp
-Text Label 9400 1350 0    39   ~ 0
-MOSI3
-Text Label 10450 1350 0    39   ~ 0
-SCK3
-Text Label 11400 1350 0    39   ~ 0
-SEN3
-Text GLabel 11550 1250 0    39   Input ~ 0
-D04
-$Comp
-L LD1117S33TR U5
-U 1 1 565533AB
-P 8600 1000
-F 0 "U5" H 8600 1250 40  0000 C CNN
-F 1 "LD1117S33TR" H 8600 1200 40  0000 C CNN
-F 2 "kicad-gfa local:SOT-223" H 8600 1100 40  0000 C CNN
-F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1776449.pdf" H 8600 1000 60  0001 C CNN
-F 4 "1202826" H 8600 1000 60  0001 C CNN "Order_Code"
-F 5 "STMICROELECTRONICS" H 8600 1000 60  0001 C CNN "MFN"
-F 6 " LD1117S33TR" H 8600 1000 60  0001 C CNN "MFP"
-	1    8600 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP C1
-U 1 1 565535F2
-P 8100 1150
-F 0 "C1" H 8125 1250 50  0000 L CNN
-F 1 "47uF" H 8125 1050 50  0000 L CNN
-F 2 "kicad-gfa local:C_0805" H 8138 1000 30  0001 C CNN
-F 3 "" H 8100 1150 60  0000 C CNN
-	1    8100 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP C2
-U 1 1 565536BD
-P 9100 1150
-F 0 "C2" H 9125 1250 50  0000 L CNN
-F 1 "47uF" H 9125 1050 50  0000 L CNN
-F 2 "kicad-gfa local:C_0805" H 9138 1000 30  0001 C CNN
-F 3 "" H 9100 1150 60  0000 C CNN
-	1    9100 1150
-	1    0    0    -1  
-$EndComp
-Text GLabel 8000 950  0    39   Input ~ 0
-+5V
-Text GLabel 9600 1250 0    39   Input ~ 0
-MOSI
-Text GLabel 10600 1250 0    39   Input ~ 0
-SCK
-Text GLabel 8600 1250 3    39   Input ~ 0
-GND
 $Comp
 L CONN_02X03 P4
 U 1 1 5655BFA8
@@ -595,10 +504,6 @@ F 3 "" H 1000 1200 60  0000 C CNN
 	1    1000 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 11100 1050 2    39   Input ~ 0
-+3.3V
-Text GLabel 12050 1050 2    39   Input ~ 0
-+3.3V
 $Comp
 L Battery BT1
 U 1 1 56585D30
@@ -667,7 +572,6 @@ F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/173040
 $EndComp
 NoConn ~ 4600 2100
 NoConn ~ 2000 4200
-NoConn ~ 13200 1000
 Wire Wire Line
 	5300 1600 5300 2600
 Wire Wire Line
@@ -688,42 +592,6 @@ Wire Wire Line
 	4900 1200 4900 3750
 Wire Notes Line
 	12300 5000 12300 3100
-Wire Wire Line
-	11700 1250 11550 1250
-Wire Wire Line
-	10750 1250 10600 1250
-Wire Wire Line
-	9800 1250 9600 1250
-Connection ~ 8100 950 
-Wire Wire Line
-	8000 950  8200 950 
-Wire Wire Line
-	8100 1000 8100 950 
-Connection ~ 9100 950 
-Wire Wire Line
-	9100 850  9100 1000
-Wire Wire Line
-	9000 950  9100 950 
-Wire Wire Line
-	10350 1350 10350 1100
-Wire Wire Line
-	9400 1350 10350 1350
-Wire Wire Line
-	9800 1100 9800 1250
-Wire Wire Line
-	12250 1350 12250 1100
-Wire Wire Line
-	11400 1350 12250 1350
-Wire Wire Line
-	11700 1100 11700 1250
-Wire Wire Line
-	11300 1350 10450 1350
-Wire Wire Line
-	11300 1100 11300 1350
-Wire Wire Line
-	10750 1100 10750 1250
-Connection ~ 11050 900 
-Connection ~ 10100 900 
 Wire Notes Line
 	10150 3100 10150 5000
 Wire Notes Line
@@ -1031,9 +899,6 @@ Wire Wire Line
 	4700 3550 4700 3750
 Connection ~ 6950 4300
 Connection ~ 6950 4000
-Connection ~ 12000 900 
-Wire Wire Line
-	9600 900  12000 900 
 Wire Wire Line
 	6950 4000 6950 4300
 Wire Wire Line
@@ -1222,10 +1087,6 @@ F 3 "" H 11600 1950 50  0000 C CNN
 $EndComp
 Text GLabel 11700 1950 2    39   Input ~ 0
 GND
-Text GLabel 10150 1050 2    39   Input ~ 0
-+3.3V
-Text GLabel 9100 850  1    39   Input ~ 0
-+3.3V
 Text Notes 9250 6650 0    60   Italic 12
 SHOULDN'T WE SET PIN 10 TO GND OR VCC?
 $EndSCHEMATC
