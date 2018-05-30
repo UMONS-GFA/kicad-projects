@@ -495,20 +495,8 @@ Text GLabel 9600 1250 0    39   Input ~ 0
 MOSI
 Text GLabel 10600 1250 0    39   Input ~ 0
 SCK
-Text GLabel 9700 1950 0    39   Input ~ 0
-MISO
-Text GLabel 9700 2050 0    39   Input ~ 0
-GND
-Text Label 9450 2150 0    39   ~ 0
-SCK3
-Text Label 9450 2250 0    39   ~ 0
-+3.3V
 Text GLabel 8600 1250 3    39   Input ~ 0
 GND
-Text Label 9450 2350 0    39   ~ 0
-MOSI3
-Text Label 9450 2450 0    39   ~ 0
-SEN3
 $Comp
 L CONN_02X03 P4
 U 1 1 5655BFA8
@@ -536,7 +524,6 @@ Text GLabel 12050 4050 2    39   Input ~ 0
 MOSI
 Text GLabel 12050 4150 2    39   Input ~ 0
 GND
-NoConn ~ 9700 2550
 Text Notes 12850 3050 0    39   ~ 0
 Rx
 Text Notes 12850 2950 0    39   ~ 0
@@ -681,20 +668,6 @@ $EndComp
 NoConn ~ 4600 2100
 NoConn ~ 2000 4200
 NoConn ~ 13200 1000
-$Comp
-L SD_Card CON1
-U 1 1 5655FE06
-P 10600 2150
-F 0 "CON1" H 9950 2700 50  0000 C CNN
-F 1 "SD_Card" H 11200 1600 50  0000 C CNN
-F 2 "kicad-gfa local:microSD_socket" H 10800 2500 50  0000 C CNN
-F 3 "https://github.com/UMONS-GFA/kicad-gfa.pretty/blob/master/datasheets/1717993.pdf" H 10600 2150 60  0001 C CNN
-F 4 "2334075" H 10600 2150 60  0001 C CNN "Order_Code"
-F 5 "MOLEX" H 10600 2150 60  0001 C CNN "MFN"
-F 6 "503182-1853" H 10600 2150 60  0001 C CNN "MFP"
-	1    10600 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 1600 5300 2600
 Wire Wire Line
@@ -715,10 +688,6 @@ Wire Wire Line
 	4900 1200 4900 3750
 Wire Notes Line
 	12300 5000 12300 3100
-Wire Wire Line
-	9700 2150 9450 2150
-Wire Wire Line
-	9700 2250 9450 2250
 Wire Wire Line
 	11700 1250 11550 1250
 Wire Wire Line
@@ -1253,10 +1222,6 @@ F 3 "" H 11600 1950 50  0000 C CNN
 $EndComp
 Text GLabel 11700 1950 2    39   Input ~ 0
 GND
-Wire Wire Line
-	9700 2350 9450 2350
-Wire Wire Line
-	9700 2450 9450 2450
 Text GLabel 10150 1050 2    39   Input ~ 0
 +3.3V
 Text GLabel 9100 850  1    39   Input ~ 0
