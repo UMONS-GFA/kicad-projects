@@ -1,4 +1,4 @@
-# kicad-projects
+# kicad-projects (NOT USED ANYMORE !)
 
 ## Configuring libraries in a project
 
